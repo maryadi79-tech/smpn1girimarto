@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMP NEGERI 1 GIRIMARTO</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header{
+    background:#1a73e8;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+/* NAVBAR */
+nav{
+    background:#0b3d91;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:14px 20px;
+}
+nav a:hover{
+    background:#1a73e8;
+}
+
+/* SECTION STYLE */
+section{
+    padding:40px 15%;
+}
+h2{
+    color:#0b3d91;
+    border-left:6px solid #1a73e8;
+    padding-left:10px;
+}
+
+/* CARD BOX */
+.box{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th,td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+th{
+    background:#e8f0fe;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#0b3d91;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>SMP NEGERI 1 GIRIMARTO</h1>
+    <p>“Terwujudnya siswa yang berbudaya, unggul dalam prestasi, dan berwawasan lingkungan berdasarkan Iman dan Taqwa”</p>
+</header>
+
+<nav>
+<a href="#beranda">Beranda</a>
+<a href="#profil">Profil</a>
+<a href="#guru">Guru</a>
+<a href="#ekstra">Ekstrakurikuler</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<section id="beranda">
+<div class="box">
+<h2>Beranda</h2>
+<p><b>Tahun Berdiri:</b> 1983</p>
+<p><b>Jumlah Siswa:</b> 377</p>
+<p><b>Guru:</b> 25</p>
+<p><b>Staf:</b> 5</p>
+</div>
+</section>
+
+<section id="profil">
+<div class="box">
+<h2>Profil Sekolah</h2>
+
+<h3>Visi</h3>
+<p>Sesuai dengan SK Kepala Sekolah Nomor 400.3.5.1/013/VIII/2025:</p>
+<blockquote>
+Terwujudnya siswa yang berbudaya, unggul dalam prestasi, dan berwawasan lingkungan berdasarkan Iman dan Taqwa
+</blockquote>
+
+<h3>Misi</h3>
+
+<ol>
+<li>Menciptakan lingkungan belajar yang menantang dan inspiratif</li>
+<li>Mendorong siswa kritis, kreatif, dan inovatif</li>
+<li>Mewujudkan siswa mandiri dan berjiwa kebhinekaan</li>
+<li>Proses pembelajaran sesuai kebutuhan murid</li>
+<li>Meningkatkan prestasi akademik & non akademik</li>
+<li>Mengoptimalkan pemanfaatan digital</li>
+<li>Menciptakan green school</li>
+<li>Mewujudkan lulusan berakhlak dan berprestasi</li>
+</ol>
+
+<p><b>Kepala Sekolah:</b> Drs. Rendro Mardiyanto, M.Pd.</p>
+<p><b>Alamat:</b> Jatirejo, Girimarto, Wonogiri</p>
+
+</div>
+</section>
+
+<section id="guru">
+<div class="box">
+<h2>Data Guru</h2>
+
+<table>
+<tr>
+<th>Nama</th>
+<th>Mata Pelajaran</th>
+<th>Jabatan</th>
+</tr>
+
+<tr>
+<td>Hersusini, S.Pd</td>
+<td>Bahasa Indonesia</td>
+<td>Guru</td>
+</tr>
+
+<tr>
+<td>Gatot Kuncoro, S.Pd</td>
+<td>PJOK</td>
+<td>Guru</td>
+</tr>
+
+<tr>
+<td>Agustina Wulandari, S.Pd</td>
+<td>IPA</td>
+<td>Guru</td>
+</tr>
+
+<tr>
+<td>Khoiriyah Dinawati, S.Psi</td>
+<td>Bimbingan Konseling</td>
+<td>Guru BK</td>
+</tr>
+
+</table>
+
+<p><i>Dan seluruh guru hebat SMP Negeri 1 Girimarto</i></p>
+
+</div>
+</section>
+
+<section id="ekstra">
+<div class="box">
+<h2>Ekstrakurikuler</h2>
+
+<ul>
+<li>Pramuka</li>
+<li>PMR</li>
+<li>OSIS</li>
+<li>Pencak Silat</li>
+<li>Bola Voli</li>
+</ul>
+
+</div>
+</section>
+
+<section id="kontak">
+<div class="box">
+<h2>Kontak Sekolah</h2>
+<p><b>Alamat:</b> Jatirejo, Girimarto, Wonogiri</p>
+<p><b>Email:</b> —</p>
+<p><b>Telepon:</b> —</p>
+</div>
+</section>
+
+<footer>
+© SMP NEGERI 1 GIRIMARTO
+</footer>
+
+</body>
+</html>
