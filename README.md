@@ -96,8 +96,8 @@ footer{
 <h2>Beranda</h2>
 <p><b>Tahun Berdiri:</b> 1983</p>
 <p><b>Jumlah Siswa:</b> 377</p>
-<p><b>Guru:</b> 25</p>
-<p><b>Staf:</b> 5</p>
+<p><b>Guru:</b> 23</p>
+<p><b>Staf:</b> 6</p>
 </div>
 </section>
 
