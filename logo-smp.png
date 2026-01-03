@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMP NEGERI 1 GIRIMARTO</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f7fb;
+  color:#333;
+}
+nav{
+  background:#ffffff;
+  box-shadow:0 2px 10px rgba(0,0,0,.1);
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+nav ul{
+  list-style:none;
+  margin:0;
+  padding:12px 20px;
+  display:flex;
+  justify-content:center;
+  gap:24px;
+}
+nav a{
+  text-decoration:none;
+  color:#005bea;
+  font-weight:bold;
+}
+
+header{
+  background:linear-gradient(135deg,#005bea,#00c6fb);
+  color:#fff;
+  padding:70px 20px;
+  text-align:center;
+}
+header img{
+  width:140px;
+  margin-bottom:15px;
+}
+
+section{
+  padding:50px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+.card{
+  background:#fff;
+  border-radius:14px;
+  padding:25px;
+  margin-top:15px;
+  box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+h2{
+  color:#005bea;
+}
+footer{
+  text-align:center;
+  padding:20px;
+  background:#002f6c;
+  color:#fff;
+  margin-top:40px;
+}
+.highlight{
+  background:#e9f3ff;
+  padding:12px;
+  border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#beranda">Beranda</a></li>
+    <li><a href="#profil">Profil</a></li>
+    <li><a href="#visi">Visi & Misi</a></li>
+    <li><a href="#tujuan">Tujuan</a></li>
+    <li><a href="#kontak">Kontak</a></li>
+  </ul>
+</nav>
+
+<header id="beranda">
+  <img src="logo-smp.png" alt="Logo SMP Negeri 1 Girimarto">
+  <h1>SMP NEGERI 1 GIRIMARTO</h1>
+  <p>Sekolah Berbudaya, Berprestasi, & Berwawasan Lingkungan</p>
+</header>
+
+<section id="profil">
+  <h2>Profil Sekolah</h2>
+  <div class="card">
+    <p><strong>Nama:</strong> SMP NEGERI 1 GIRIMARTO</p>
+    <p><strong>Alamat:</strong> Jatirejo, Girimarto, Wonogiri</p>
+    <p><strong>Email:</strong> smpn1girimarto@gmail.com</p>
+  </div>
+</section>
+
+<section id="visi">
+  <h2>Visi</h2>
+  <div class="card highlight">
+    <p><em>“Terwujudnya siswa yang berbudaya, unggul dalam prestasi, dan berwawasan lingkungan berdasarkan Iman dan Taqwa”</em></p>
+  </div>
+
+  <h2>Misi Sekolah</h2>
+  <div class="card">
+    <ol>
+      <li>Menciptakan lingkungan belajar yang menantang dan inspiratif</li>
+      <li>Mendorong siswa berpikir kritis, kreatif, dan inovatif sehingga mampu meraih prestasi unggul</li>
+      <li>Mewujudkan siswa yang mandiri dan berjiwa kebhinekaan global</li>
+      <li>Mewujudkan pembelajaran sesuai kebutuhan murid</li>
+      <li>Meningkatkan prestasi akademik dan non akademik</li>
+      <li>Mengoptimalkan pemanfaatan digital dan teknologi</li>
+      <li>Menciptakan suasana sekolah sehat, bersih, nyaman, dan rindang</li>
+      <li>Mewujudkan lulusan berakhlak dan mampu bersaing secara global</li>
+    </ol>
+  </div>
+</section>
+
+<section id="tujuan">
+  <h2>Tujuan Sekolah</h2>
+
+  <div class="card">
+    <h3>Tujuan Jangka Menengah (2027)</h3>
+    <ul>
+      <li>Meningkatnya kualitas pembelajaran hingga skor 85,00</li>
+      <li>Kinerja guru mencapai skor 82,00</li>
+      <li>Iklim keamanan sekolah mencapai skor 80,00</li>
+      <li>Literasi minimal 93%</li>
+      <li>Numerasi minimal 95%</li>
+      <li>Lingkungan bersih dan adiwiyata</li>
+      <li>Pemanfaatan TIK meningkat</li>
+      <li>Partisipasi warga sekolah meningkat</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Tujuan Jangka Pendek (2026)</h3>
+    <ul>
+      <li>Kualitas pembelajaran skor 78,00</li>
+      <li>Kinerja guru skor 77,00</li>
+      <li>Keamanan sekolah skor 76,00</li>
+      <li>Literasi minimal 77%</li>
+      <li>Numerasi minimal 90%</li>
+      <li>Kebersihan sekolah partisipasi 70%</li>
+      <li>Pemanfaatan TIK skor 55,00</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p><strong>Kepala Sekolah:</strong><br>
+    Drs. Rendro Mardiyanto, M.Pd</p>
+  </div>
+</section>
+
+<section id="kontak">
+  <h2>Kontak</h2>
+  <div class="card">
+    <p><strong>Alamat:</strong><br>
+    Jatirejo, Girimarto, Wonogiri</p>
+
+    <p><strong>Email:</strong><br>
+    smpn1girimarto@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 SMP NEGERI 1 GIRIMARTO
+</footer>
+
+</body>
+</html>
